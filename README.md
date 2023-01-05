@@ -1,3 +1,5 @@
+Forked from [jnweiger/led-name-badge-ls32](https://github.com/jnweiger/led-name-badge-ls32)
+
 # Led-Badge-44x11
 Upload tool for an led name tag with USB-HID interface
 
