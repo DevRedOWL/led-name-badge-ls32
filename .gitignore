@@ -133,3 +133,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Personal use
+.cache
+dist
+node_modules

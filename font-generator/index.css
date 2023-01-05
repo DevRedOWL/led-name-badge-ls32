@@ -1,0 +1,19 @@
+body {
+  display: flex;
+}
+
+figure {
+  width: 200px;
+}
+
+figure > canvas,
+figure > img {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 160px;
+  height: 220px;
+}
+
+figcaption {
+  font-size: 12px;
+}

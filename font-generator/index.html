@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Font generator</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+
+  <body id="body">
+    <figure id="canvas-1">
+      <canvas></canvas>
+      <figcaption>Press <b>shift+space</b> to clear or just <b>shift</b> to erase</figcaption>
+    </figure>
+    <figure id="output">
+      <textarea
+        style="height: 25%;"
+        id="hex"
+        placeholder="Hexadecimal output"
+      ></textarea>
+      <figcaption style="height: 10%;">Hex</figcaption>
+      <textarea
+        style="height: 62%;"
+        id="bin"
+        placeholder="Binary output"
+      ></textarea>
+      <figcaption style="height: 10%;">Bin</figcaption>
+    </figure>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
